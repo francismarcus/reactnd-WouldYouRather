@@ -1,10 +1,10 @@
 import React, {Component, Fragment} from 'react'
 import {connect} from 'react-redux'
 import {Row} from 'reactstrap'
-import {handleAnswerQuestion} from '../../actions/questions'
+import {handleAnswerQuestion} from '../actions/questions'
 import Option from "./Option"
-import UserSummary from '../common/UserSummary'
-import MissingQuestion from "./MissingQuestion";
+import UserSummary from './UserSummary'
+import MissingQuestion from "./missingQuestion";
 
 class Question extends Component {
     state = {

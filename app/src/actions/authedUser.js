@@ -1,8 +1,15 @@
-export const SET_AUTHED_USER = 'SET_AUTHED_USER';
+import {AUTHENTICATE_USER, SIGN_OUT} from "./types";
 
-export function setAuthedUser(id) {
-  return {
-    type: SET_AUTHED_USER,
-    id
-  };
+export function authenticateUser(id) {
+    return {
+        type: AUTHENTICATE_USER,
+        id
+    }
+}
+
+export function signOut(id) {
+    return {
+        type: SIGN_OUT,
+        id
+    }
 }
