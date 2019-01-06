@@ -24,7 +24,7 @@ let users = {
   johndoe: {
     id: 'johndoe',
     name: 'John Doe',
-    avatarURL: https://en.wikipedia.org/wiki/Kendall_Jenner#/media/File:Kendal_Jenner_Cannes_2017.jpg,
+    avatarURL: 'https://en.wikipedia.org/wiki/Kendall_Jenner#/media/File:Kendal_Jenner_Cannes_2017.jpg',
     answers: {
       "xj352vofupe1dqz9emx13r": 'optionOne',
       "vthrdm985a262al8qx3do": 'optionTwo',
