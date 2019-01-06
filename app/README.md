@@ -1,10 +1,10 @@
 
 ## To install
 
-Git clone https://github.com/francismarcus/reactnd-WouldYouRather
-cd WouldYouRather
-npm install
-npm start
+_Git clone https://github.com/francismarcus/reactnd-WouldYouRather _
+_cd WouldYouRather_
+_npm install_
+_npm start_
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
